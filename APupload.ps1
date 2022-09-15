@@ -13,3 +13,4 @@ if ($?){
 Set-PSRepository -Name 'PSGallery' -InstallationPolicy Untrusted
 # Run Get-WindowsAutopilotinfo online
 Get-WindowsAutopilotinfo -Online
+Read-Host -Prompt "Press Enter to exit"
